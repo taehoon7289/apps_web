@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync ./build s3://apps-web-deploy-zone --profile=apps-web-deploy",
+    "invalidate": "aws cloudfront create-invalidation --profile=apps-web-deploy --distribution-id E3FD8S2S210J50 --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico"
   },
   "eslintConfig": {
     "extends": [

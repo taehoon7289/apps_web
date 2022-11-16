@@ -1,6 +1,6 @@
-import ImgServiceIntro from '../assets/img/service_intro.png'
-import ImgTech from '../assets/img/tech.png'
-import ImgQuestion from '../assets/img/question.png'
+import ImgServiceIntro from 'assets/img/service_intro.png'
+import ImgTech from 'assets/img/tech.png'
+import ImgQuestion from 'assets/img/question.png'
 
 const LayoutHeader = () => {
   return (
