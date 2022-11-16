@@ -1,11 +1,9 @@
-const LayoutHeader = () => {
-
-  return (<>
-    <div>
-      header
-    </div>
-  </>)
-
+const LayoutFooter = () => {
+  return (
+    <>
+      <div>footer</div>
+    </>
+  )
 }
 
-export default LayoutHeader
+export default LayoutFooter
