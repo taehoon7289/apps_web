@@ -25,7 +25,10 @@ const LayoutHeader = () => {
             </li>
             <li className={'tab-li'}>
               <img className={'tab-li-icon'} src={ImgQuestion} />
-              <a className={'tab-li-anchor'} href={'#question'}>
+              <a
+                className={'tab-li-anchor'}
+                href={'mailto:taehoon7289@gmail.com'}
+              >
                 문의하기
               </a>
             </li>
